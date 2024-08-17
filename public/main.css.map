@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/home/kalebag/projects/hugo-stuff/kaleb-blog",
+	"sourceRoot": "/home/kalebag/projects/hugo-stuff/kaleJohn.github.io",
 	"sources": [
 		"themes/hello-friend-ng/assets/scss/main.scss",
 		"themes/hello-friend-ng/assets/scss/_normalize.scss",
