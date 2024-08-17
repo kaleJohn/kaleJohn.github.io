@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Posts on My Blog</title>
+        <title>Posts on Kaleb&#39;s Blog</title>
         <link>http://localhost:1313/posts/</link>
-        <description>Recent content in Posts on My Blog</description>
+        <description>Recent content in Posts on Kaleb&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <lastBuildDate>Sat, 17 Aug 2024 10:02:50 -0400</lastBuildDate>
@@ -14,8 +14,10 @@
             <pubDate>Sat, 17 Aug 2024 10:02:50 -0400</pubDate>
             
             <guid>http://localhost:1313/posts/hello-world/</guid>
-            <description></description>
-            <content type="html"><![CDATA[]]></content>
+            <description>Introduction Hello, world. And hello you.</description>
+            <content type="html"><![CDATA[<h1 id="introduction">Introduction</h1>
+<p>Hello, world. <em>And hello <strong>you</strong></em>.</p>
+]]></content>
         </item>
         
     </channel>
