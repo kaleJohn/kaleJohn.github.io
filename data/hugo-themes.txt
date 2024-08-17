@@ -1,3 +1,0 @@
-Hugo alternative themes.
-I want minimalism, a good mobile experience, and an easily implementable dark mode.
-Hermit v2 seems ok, but I'm currently sticking with friend-ng
