@@ -6,8 +6,15 @@
     <description>Recent content in Untagged on Kaleb&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 17 Aug 2024 10:02:50 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 18 Aug 2024 10:41:55 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/untagged/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blog Creation</title>
+      <link>http://localhost:1313/posts/blog-creation/</link>
+      <pubDate>Sun, 18 Aug 2024 10:41:55 -0400</pubDate>
+      <guid>http://localhost:1313/posts/blog-creation/</guid>
+      <description>Starting a Blog I’ve been looking to start a blog for a few months, but I’ve spent most of that time puttering about without actually doing anything. I&amp;rsquo;ve spent altogether too many hours looking at Drupal vs Wordpress, looking into hosting options, reading documentation and articles. What finally pushed me over the edge was an article I read on a blog written using it. It looked nice, even on mobile, and the way the author talked about it made it sound reasonably painless to set up.</description>
+    </item>
     <item>
       <title>Hello World</title>
       <link>http://localhost:1313/posts/hello-world/</link>
