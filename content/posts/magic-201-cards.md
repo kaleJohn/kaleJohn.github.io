@@ -1,7 +1,7 @@
 ---
 title: "Magic 201 Cards"
 date: 2025-03-01T15:50:10-04:00
-draft: true
+draft: false
 toc: false
 images:
 tags:
