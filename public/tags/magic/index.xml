@@ -9,11 +9,11 @@
     <lastBuildDate>Sat, 01 Mar 2025 15:50:10 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/magic/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Magic 201 Cards</title>
+      <title>Magic 201: Card Advantage</title>
       <link>http://localhost:1313/posts/magic-201-cards/</link>
       <pubDate>Sat, 01 Mar 2025 15:50:10 -0400</pubDate>
       <guid>http://localhost:1313/posts/magic-201-cards/</guid>
-      <description>Magic 201: A series of introductory articles on Magic strategy, geared towards limited play. This is part one of a series of articles on some different forms of advantage in Magic, aimed at teaching newer players different frameworks for evaluating board states and card interactions. I hope that this is useful for players of all levels.&#xA;Figuring out who is winning or losing in a game of Magic is surprisingly tricky.</description>
+      <description>&lt;h1 id=&#34;magic-201-card-advantage&#34;&gt;Magic 201: Card Advantage&lt;/h1&gt;&#xA;&lt;p&gt;This is part one of a series of articles on some different forms of advantage in Magic, aimed at teaching newer players different frameworks for evaluating board states and card interactions. I hope that this is useful for players of all levels.&lt;/p&gt;&#xA;&lt;p&gt;Figuring out who is winning or losing in a game of Magic is surprisingly tricky. In games like tennis or football, for example, just glancing at the score will give a good enough impression of who is advantaged. Magic has more in common with a game like chess, where determining who is winning from just a glance at the board can be very challenging for a new player. Unlike chess, algorithms for determining advantage have not been developed. Instead, players develop several heuristics for what interactions and board states will most likely lead to them winning. In this series of articles, I’ll go over the most fundamental of these heuristics.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="author" content="">
-<meta name="description" content="Magic 201: A series of introductory articles on Magic strategy, geared towards limited play. This is part one of a series of articles on some different forms of advantage in Magic, aimed at teaching newer players different frameworks for evaluating board states and card interactions. I hope that this is useful for players of all levels.
-Figuring out who is winning or losing in a game of Magic is surprisingly tricky." />
+<meta name="description" content="Magic 201: Card Advantage This is part one of a series of articles on some different forms of advantage in Magic, aimed at teaching newer players different frameworks for evaluating board states and card interactions. I hope that this is useful for players of all levels.
+Figuring out who is winning or losing in a game of Magic is surprisingly tricky. In games like tennis or football, for example, just glancing at the score will give a good enough impression of who is advantaged. Magic has more in common with a game like chess, where determining who is winning from just a glance at the board can be very challenging for a new player. Unlike chess, algorithms for determining advantage have not been developed. Instead, players develop several heuristics for what interactions and board states will most likely lead to them winning. In this series of articles, I’ll go over the most fundamental of these heuristics.
+" />
 <meta name="keywords" content=", magic, magic-201" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="" />
@@ -16,7 +17,7 @@ Figuring out who is winning or losing in a game of Magic is surprisingly tricky.
 
     <title>
         
-            Magic 201 Cards :: Kaleb&#39;s Blog  — A simple theme for Hugo
+            Magic 201: Card Advantage :: Kaleb&#39;s Blog  — A simple theme for Hugo
         
     </title>
 
@@ -38,28 +39,28 @@ Figuring out who is winning or losing in a game of Magic is surprisingly tricky.
 
 
 
-  <meta itemprop="name" content="Magic 201 Cards">
-  <meta itemprop="description" content="Magic 201: A series of introductory articles on Magic strategy, geared towards limited play. This is part one of a series of articles on some different forms of advantage in Magic, aimed at teaching newer players different frameworks for evaluating board states and card interactions. I hope that this is useful for players of all levels.
-Figuring out who is winning or losing in a game of Magic is surprisingly tricky.">
+  <meta itemprop="name" content="Magic 201: Card Advantage">
+  <meta itemprop="description" content="Magic 201: Card Advantage This is part one of a series of articles on some different forms of advantage in Magic, aimed at teaching newer players different frameworks for evaluating board states and card interactions. I hope that this is useful for players of all levels.
+Figuring out who is winning or losing in a game of Magic is surprisingly tricky. In games like tennis or football, for example, just glancing at the score will give a good enough impression of who is advantaged. Magic has more in common with a game like chess, where determining who is winning from just a glance at the board can be very challenging for a new player. Unlike chess, algorithms for determining advantage have not been developed. Instead, players develop several heuristics for what interactions and board states will most likely lead to them winning. In this series of articles, I’ll go over the most fundamental of these heuristics.">
   <meta itemprop="datePublished" content="2025-03-01T15:50:10-04:00">
   <meta itemprop="dateModified" content="2025-03-01T15:50:10-04:00">
-  <meta itemprop="wordCount" content="1349">
+  <meta itemprop="wordCount" content="1271">
   <meta itemprop="image" content="http://localhost:1313/">
   <meta itemprop="keywords" content="Magic,Magic-201">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="http://localhost:1313/">
-  <meta name="twitter:title" content="Magic 201 Cards">
-  <meta name="twitter:description" content="Magic 201: A series of introductory articles on Magic strategy, geared towards limited play. This is part one of a series of articles on some different forms of advantage in Magic, aimed at teaching newer players different frameworks for evaluating board states and card interactions. I hope that this is useful for players of all levels.
-Figuring out who is winning or losing in a game of Magic is surprisingly tricky.">
+  <meta name="twitter:title" content="Magic 201: Card Advantage">
+  <meta name="twitter:description" content="Magic 201: Card Advantage This is part one of a series of articles on some different forms of advantage in Magic, aimed at teaching newer players different frameworks for evaluating board states and card interactions. I hope that this is useful for players of all levels.
+Figuring out who is winning or losing in a game of Magic is surprisingly tricky. In games like tennis or football, for example, just glancing at the score will give a good enough impression of who is advantaged. Magic has more in common with a game like chess, where determining who is winning from just a glance at the board can be very challenging for a new player. Unlike chess, algorithms for determining advantage have not been developed. Instead, players develop several heuristics for what interactions and board states will most likely lead to them winning. In this series of articles, I’ll go over the most fundamental of these heuristics.">
 
 
 
     <meta property="og:url" content="http://localhost:1313/posts/magic-201-cards/">
   <meta property="og:site_name" content="Kaleb&#39;s Blog">
-  <meta property="og:title" content="Magic 201 Cards">
-  <meta property="og:description" content="Magic 201: A series of introductory articles on Magic strategy, geared towards limited play. This is part one of a series of articles on some different forms of advantage in Magic, aimed at teaching newer players different frameworks for evaluating board states and card interactions. I hope that this is useful for players of all levels.
-Figuring out who is winning or losing in a game of Magic is surprisingly tricky.">
+  <meta property="og:title" content="Magic 201: Card Advantage">
+  <meta property="og:description" content="Magic 201: Card Advantage This is part one of a series of articles on some different forms of advantage in Magic, aimed at teaching newer players different frameworks for evaluating board states and card interactions. I hope that this is useful for players of all levels.
+Figuring out who is winning or losing in a game of Magic is surprisingly tricky. In games like tennis or football, for example, just glancing at the score will give a good enough impression of who is advantaged. Magic has more in common with a game like chess, where determining who is winning from just a glance at the board can be very challenging for a new player. Unlike chess, algorithms for determining advantage have not been developed. Instead, players develop several heuristics for what interactions and board states will most likely lead to them winning. In this series of articles, I’ll go over the most fundamental of these heuristics.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -148,7 +149,7 @@ Figuring out who is winning or losing in a game of Magic is surprisingly tricky.
           <circle cx="12" cy="12" r="10"></circle>
           <polyline points="12 6 12 12 16 14"></polyline>
         </svg>
-        7 minutes
+        6 minutes
 
         
       </p>
@@ -156,7 +157,7 @@ Figuring out who is winning or losing in a game of Magic is surprisingly tricky.
 
     <article>
       <h1 class="post-title">
-        <a href="http://localhost:1313/posts/magic-201-cards/">Magic 201 Cards</a>
+        <a href="http://localhost:1313/posts/magic-201-cards/">Magic 201: Card Advantage</a>
       </h1>
 
       
@@ -166,16 +167,14 @@ Figuring out who is winning or losing in a game of Magic is surprisingly tricky.
       
 
       <div class="post-content">
-        <h1 id="magic-201-a-series-of-introductory-articles-on-magic-strategy-geared-towards-limited-play">Magic 201: A series of introductory articles on Magic strategy, geared towards limited play.</h1>
+        <h1 id="magic-201-card-advantage">Magic 201: Card Advantage</h1>
 <p>This is part one of a series of articles on some different forms of advantage in Magic, aimed at teaching newer players different frameworks for evaluating board states and card interactions. I hope that this is useful for players of all levels.</p>
-<p>Figuring out who is winning or losing in a game of Magic is surprisingly tricky. In games like tennis or football, for example, just glancing at the score will give a good enough impression of who is advantaged. Magic has more in common with a game like chess, where determining who is winning from just a glance at the board can be very challenging for a new player. Unlike chess, algorithms for determining advantage have not been developed [nor does it seem likely they will be anytime soon (link)]. Instead, players develop several heuristics for what interactions and board states will most likely lead to them winning. In this series of articles, I’ll go over the most fundamental of these heuristics.</p>
+<p>Figuring out who is winning or losing in a game of Magic is surprisingly tricky. In games like tennis or football, for example, just glancing at the score will give a good enough impression of who is advantaged. Magic has more in common with a game like chess, where determining who is winning from just a glance at the board can be very challenging for a new player. Unlike chess, algorithms for determining advantage have not been developed. Instead, players develop several heuristics for what interactions and board states will most likely lead to them winning. In this series of articles, I’ll go over the most fundamental of these heuristics.</p>
 <h2 id="card-advantage">Card Advantage</h2>
 <p>The basic idea behind card advantage is that, in Magic, the person who has more stuff is more likely to win. Having more cards than your opponent, in hand and on the board, will let you trade off resources and win a game with what’s left. Just like every other way of evaluating the game, there are times when this will start to break down. Magic is a complicated game. However, in most games you play, having more cards will lead to winning.
-The easiest way to start evaluating card advantage is just to count the number of cards you and your opponent have access to, and to keep track of this by tracking how interactions modify that number. This is easiest to explain with two effects – card draw and removal. At the start of the game, you and your opponent have drawn seven cards. A card like [[Quick Study]] draws 2 cards, and the cost in terms of card advantage (we’ll get into mana advantage in later articles) is one card, which is the [[Quick Study]] itself. So after casting a quick study, you are net up one card. Then there are cards like [[Ravenous Chupacabra]]. This card is a removal spell, but it is also a 2/2 creature. When you cast it, if your opponent has a creature, you destroy that creature and have a creature of your own. This interaction also puts you up one card. A common phrase for these kinds of interactions is a “two for one”, and both of these effects are quite commonly printed, from [[chupacabra echo] to [[Wix Patrol]] to “vehicle chupa”, and [[black draw two lose two]]. Something that sometimes trips up players is that removal is not card advantage. Someone casting a [[Murder]] on your [[aetherdrift watchwolf]] is a net +0 in terms of card advantage. Both players have spent a card, and have received no card in return.</p>
+The easiest way to start evaluating card advantage is just to count the number of cards you and your opponent have access to, and to keep track of this by tracking how interactions modify that number. This is easiest to explain with two effects – card draw and removal. At the start of the game, you and your opponent have drawn seven cards. A card like [[Quick Study]] draws 2 cards, and the cost in terms of card advantage (we’ll get into mana advantage in later articles) is one card, which is the [[Quick Study]] itself. So after casting a quick study, you are net up one card. Then there are cards like [[Ravenous Chupacabra]]. This card is a removal spell, but it is also a 2/2 creature. When you cast it, if your opponent has a creature, you destroy that creature and have a creature of your own. This interaction also puts you up one card. A common phrase for these kinds of interactions is a “two for one”, and both of these effects are quite commonly printed, from [[chupacabra echo] to [[Wix Patrol]] to “vehicle chupa”, and [[black draw two lose two]]. Something that sometimes trips up players is that removal is not card advantage. Someone casting a <a href="https://scryfall.com/card/dsk/110/murder">Murder</a> on your [[Sundial, Dawn Tyrant]] is a net +0 in terms of card advantage. Both players have spent a card, and have received no card in return.</p>
 <h2 id="creatures-complicating-the-basics">Creatures: Complicating the basics</h2>
 <p>Where card advantage can start to get more complex is with cards like resolute reinforcements. You do get two bodies from one card, but the utility of 1/1 bodies really matters here. If your opponent has a single [[Watchwolf]], your two creatures cannot attack or block effectively. However, if you have a card like [[anthem of champions]], the utlity of your 1/1s is increased, and they can now stonewall the watchwolf. There are also cards like [[knight errant of Eos]], or [[vengeful bloodwitch] that can leverage those bodies in other ways. Generally speaking, in magic, creatures are the most variable in terms of how they are exchanged for card advantage, and (mention creatures transitioning into board advantage and life total advantage). The best way to track the net effect on card advantage is just to track the board interactions (for example, if you count casting resolute reinforcements as a +1, then count trading both of those bodies for a cankerbloom or a giant growth as a -1). This may seem like a whole lot of work, but after some experience your brain will start to automatically shortcut a lot of this, just leaving you with the general impression of how ahead or behind you are on cards. It’s useful to be able to drill down and start counting for when that becomes relevant, but the important thing here is to be aware of card advantage and how various interactions negatively or positively impact you relative to your opponent.</p>
-<h2 id="virtual-card-advantage">Virtual Card Advantage</h2>
-<p>Playing removal spells for creatures l. A deck that plays no creatures will render their opponents [[ fell ]]s completely useless. Similarly, if the opponent is playing 4 [[cut down]] or [[Nowhere to Run]], then playing only creatures like [[preacher of the schism]] or [[Sentinel of the Nameless City]] will similarly render their cards useless</p>
 <h2 id="sweepers">Sweepers</h2>
 <p>Sweepers are a classic form of board based card advantage. If your opponent has four creatures, and you have one, and you cast a day of judgment, you’ve lost two cards (the creature + the day of judgement) and they have lost 4, so it ends up being a +2. If your creature was something like a wall of omens, you feel even better. If your opponent’s creatures are cards like [[nesting bot]], [[vengeful bloodwitch]], or [[enduring curiosity]], you’ll feel worse.</p>
 <p>Contrast Day of Judgment with Settle the Wreckage. Strictly speaking, settle the wreckage is negative in terms of card advantage, provided your opponent has enough basic lands to get one for each creature exiled. You discard the settle, and your opponent gets to replace each exiled creature with another card. [using strictly the counting method of calculating card advantage] . In constructed, multicolored decks usually play 1-8 basic lands. [Even this green deck splashing black for sideboard cards and scrapheap scrounger’s activation deck from 2018 Standard, [or this chainwhirler deck splashing black from the same era] and these decks are playing close to the maximum number of basics for a multicolored deck. (extraneous)]. However, as you’ve definitely experienced, lands have a point of diminshing returns in most decks. If your most expensive spell costs 4 mana, and you don’t have many ways to draw cards, then getting your 7, 8, and 9th lands is completely irrelevant for you. Most importantly, settle the wreckage is always a one sided sweeper. Unlike day of judgment, even board based creature decks can feel fine playing Settle the Wreckage</p>
@@ -209,7 +208,7 @@ The easiest way to start evaluating card advantage is just to count the number o
           <line x1="16" y1="17" x2="8" y2="17"></line>
           <polyline points="10 9 9 9 8 9"></polyline>
         </svg>
-        1349 Words
+        1271 Words
       </p>
 
       <p>
@@ -248,7 +247,7 @@ The easiest way to start evaluating card advantage is just to count the number o
 </a>
 
 
-<a class="resp-sharing-button__link" href="https://www.tumblr.com/widgets/share/tool?posttype=link&amp;title=Magic%20201%20Cards&amp;caption=Magic%20201%20Cards&amp;canonicalUrl=http%3a%2f%2flocalhost%3a1313%2fposts%2fmagic-201-cards%2f" target="_blank" rel="noopener" aria-label="" title="Share on tumblr">
+<a class="resp-sharing-button__link" href="https://www.tumblr.com/widgets/share/tool?posttype=link&amp;title=Magic%20201%3a%20Card%20Advantage&amp;caption=Magic%20201%3a%20Card%20Advantage&amp;canonicalUrl=http%3a%2f%2flocalhost%3a1313%2fposts%2fmagic-201-cards%2f" target="_blank" rel="noopener" aria-label="" title="Share on tumblr">
   <div class="resp-sharing-button resp-sharing-button--tumblr resp-sharing-button--small">
     <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.563 24c-5.093 0-7.031-3.756-7.031-6.411V9.747H5.116V6.648c3.63-1.313 4.512-4.596 4.71-6.469C9.84.051 9.941 0 9.999 0h3.517v6.114h4.801v3.633h-4.82v7.47c.016 1.001.375 2.371 2.207 2.371h.09c.631-.02 1.486-.205 1.936-.419l1.156 3.425c-.436.636-2.4 1.374-4.156 1.404h-.178l.011.002z"/></svg>
@@ -257,7 +256,7 @@ The easiest way to start evaluating card advantage is just to count the number o
 </a>
 
 
-<a class="resp-sharing-button__link" href="mailto:?subject=Magic%20201%20Cards&amp;body=http%3a%2f%2flocalhost%3a1313%2fposts%2fmagic-201-cards%2f" target="_self" rel="noopener" aria-label="" title="Share via email">
+<a class="resp-sharing-button__link" href="mailto:?subject=Magic%20201%3a%20Card%20Advantage&amp;body=http%3a%2f%2flocalhost%3a1313%2fposts%2fmagic-201-cards%2f" target="_self" rel="noopener" aria-label="" title="Share via email">
   <div class="resp-sharing-button resp-sharing-button--email resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
     </div>
@@ -265,7 +264,7 @@ The easiest way to start evaluating card advantage is just to count the number o
 </a>
 
 
-<a class="resp-sharing-button__link" href="https://pinterest.com/pin/create/button/?url=http%3a%2f%2flocalhost%3a1313%2fposts%2fmagic-201-cards%2f&amp;media=http%3a%2f%2flocalhost%3a1313%2fposts%2fmagic-201-cards%2f;description=Magic%20201%20Cards" target="_blank" rel="noopener" aria-label="" title="Share on pinterest">
+<a class="resp-sharing-button__link" href="https://pinterest.com/pin/create/button/?url=http%3a%2f%2flocalhost%3a1313%2fposts%2fmagic-201-cards%2f&amp;media=http%3a%2f%2flocalhost%3a1313%2fposts%2fmagic-201-cards%2f;description=Magic%20201%3a%20Card%20Advantage" target="_blank" rel="noopener" aria-label="" title="Share on pinterest">
   <div class="resp-sharing-button resp-sharing-button--pinterest resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.162-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.401.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.354-.629-2.758-1.379l-.749 2.848c-.269 1.045-1.004 2.352-1.498 3.146 1.123.345 2.306.535 3.55.535 6.607 0 11.985-5.365 11.985-11.987C23.97 5.39 18.592.026 11.985.026L12.017 0z"/></svg>
     </div>
@@ -273,7 +272,7 @@ The easiest way to start evaluating card advantage is just to count the number o
 </a>
 
 
-<a class="resp-sharing-button__link" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2flocalhost%3a1313%2fposts%2fmagic-201-cards%2f&amp;title=Magic%20201%20Cards&amp;summary=Magic%20201%20Cards&amp;source=http%3a%2f%2flocalhost%3a1313%2fposts%2fmagic-201-cards%2f" target="_blank" rel="noopener" aria-label="" title="Share on linkedin">
+<a class="resp-sharing-button__link" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2flocalhost%3a1313%2fposts%2fmagic-201-cards%2f&amp;title=Magic%20201%3a%20Card%20Advantage&amp;summary=Magic%20201%3a%20Card%20Advantage&amp;source=http%3a%2f%2flocalhost%3a1313%2fposts%2fmagic-201-cards%2f" target="_blank" rel="noopener" aria-label="" title="Share on linkedin">
   <div class="resp-sharing-button resp-sharing-button--linkedin resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
     </div>
@@ -281,7 +280,7 @@ The easiest way to start evaluating card advantage is just to count the number o
 </a>
 
 
-<a class="resp-sharing-button__link" href="https://reddit.com/submit/?url=http%3a%2f%2flocalhost%3a1313%2fposts%2fmagic-201-cards%2f&amp;resubmit=true&amp;title=Magic%20201%20Cards" target="_blank" rel="noopener" aria-label="" title="Share on reddit">
+<a class="resp-sharing-button__link" href="https://reddit.com/submit/?url=http%3a%2f%2flocalhost%3a1313%2fposts%2fmagic-201-cards%2f&amp;resubmit=true&amp;title=Magic%20201%3a%20Card%20Advantage" target="_blank" rel="noopener" aria-label="" title="Share on reddit">
   <div class="resp-sharing-button resp-sharing-button--reddit resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm5.01 4.744c.688 0 1.25.561 1.25 1.249a1.25 1.25 0 0 1-2.498.056l-2.597-.547-.8 3.747c1.824.07 3.48.632 4.674 1.488.308-.309.73-.491 1.207-.491.968 0 1.754.786 1.754 1.754 0 .716-.435 1.333-1.01 1.614a3.111 3.111 0 0 1 .042.52c0 2.694-3.13 4.87-7.004 4.87-3.874 0-7.004-2.176-7.004-4.87 0-.183.015-.366.043-.534A1.748 1.748 0 0 1 4.028 12c0-.968.786-1.754 1.754-1.754.463 0 .898.196 1.207.49 1.207-.883 2.878-1.43 4.744-1.487l.885-4.182a.342.342 0 0 1 .14-.197.35.35 0 0 1 .238-.042l2.906.617a1.214 1.214 0 0 1 1.108-.701zM9.25 12C8.561 12 8 12.562 8 13.25c0 .687.561 1.248 1.25 1.248.687 0 1.248-.561 1.248-1.249 0-.688-.561-1.249-1.249-1.249zm5.5 0c-.687 0-1.248.561-1.248 1.25 0 .687.561 1.248 1.249 1.248.688 0 1.249-.561 1.249-1.249 0-.687-.562-1.249-1.25-1.249zm-5.466 3.99a.327.327 0 0 0-.231.094.33.33 0 0 0 0 .463c.842.842 2.484.913 2.961.913.477 0 2.105-.056 2.961-.913a.361.361 0 0 0 .029-.463.33.33 0 0 0-.464 0c-.547.533-1.684.73-2.512.73-.828 0-1.979-.196-2.512-.73a.326.326 0 0 0-.232-.095z"/></svg>
     </div>
@@ -289,7 +288,7 @@ The easiest way to start evaluating card advantage is just to count the number o
 </a>
 
 
-<a class="resp-sharing-button__link" href="https://www.xing.com/app/user?op=share;url=http%3a%2f%2flocalhost%3a1313%2fposts%2fmagic-201-cards%2f;title=Magic%20201%20Cards" target="_blank" rel="noopener" aria-label="" title="Share on xing">
+<a class="resp-sharing-button__link" href="https://www.xing.com/app/user?op=share;url=http%3a%2f%2flocalhost%3a1313%2fposts%2fmagic-201-cards%2f;title=Magic%20201%3a%20Card%20Advantage" target="_blank" rel="noopener" aria-label="" title="Share on xing">
   <div class="resp-sharing-button resp-sharing-button--xing resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M18.188 0c-.517 0-.741.325-.927.66 0 0-7.455 13.224-7.702 13.657.015.024 4.919 9.023 4.919 9.023.17.308.436.66.967.66h3.454c.211 0 .375-.078.463-.22.089-.151.089-.346-.009-.536l-4.879-8.916c-.004-.006-.004-.016 0-.022L22.139.756c.095-.191.097-.387.006-.535C22.056.078 21.894 0 21.686 0h-3.498zM3.648 4.74c-.211 0-.385.074-.473.216-.09.149-.078.339.02.531l2.34 4.05c.004.01.004.016 0 .021L1.86 16.051c-.099.188-.093.381 0 .529.085.142.239.234.45.234h3.461c.518 0 .766-.348.945-.667l3.734-6.609-2.378-4.155c-.172-.315-.434-.659-.962-.659H3.648v.016z"/></svg>
     </div>
@@ -297,7 +296,7 @@ The easiest way to start evaluating card advantage is just to count the number o
 </a>
 
 
-<a class="resp-sharing-button__link" href="whatsapp://send?text=Magic%20201%20Cards%20http%3a%2f%2flocalhost%3a1313%2fposts%2fmagic-201-cards%2f" target="_blank" rel="noopener" aria-label="" title="Share on whatsapp">
+<a class="resp-sharing-button__link" href="whatsapp://send?text=Magic%20201%3a%20Card%20Advantage%20http%3a%2f%2flocalhost%3a1313%2fposts%2fmagic-201-cards%2f" target="_blank" rel="noopener" aria-label="" title="Share on whatsapp">
   <div class="resp-sharing-button resp-sharing-button--whatsapp resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
     </div>
@@ -305,7 +304,7 @@ The easiest way to start evaluating card advantage is just to count the number o
 </a>
 
 
-<a class="resp-sharing-button__link" href="https://news.ycombinator.com/submitlink?u=http%3a%2f%2flocalhost%3a1313%2fposts%2fmagic-201-cards%2f&amp;t=Magic%20201%20Cards" target="_blank" rel="noopener" aria-label="" title="Share on hacker news">
+<a class="resp-sharing-button__link" href="https://news.ycombinator.com/submitlink?u=http%3a%2f%2flocalhost%3a1313%2fposts%2fmagic-201-cards%2f&amp;t=Magic%20201%3a%20Card%20Advantage" target="_blank" rel="noopener" aria-label="" title="Share on hacker news">
   <div class="resp-sharing-button resp-sharing-button--hackernews resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
 			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M0 24V0h24v24H0zM6.951 5.896l4.112 7.708v5.064h1.583v-4.972l4.148-7.799h-1.749l-2.457 4.875c-.372.745-.688 1.434-.688 1.434s-.297-.708-.651-1.434L8.831 5.896h-1.88z"/></svg>
     </div>
@@ -313,7 +312,7 @@ The easiest way to start evaluating card advantage is just to count the number o
 </a>
 
 
-<a class="resp-sharing-button__link" href="https://telegram.me/share/url?text=Magic%20201%20Cards&amp;url=http%3a%2f%2flocalhost%3a1313%2fposts%2fmagic-201-cards%2f" target="_blank" rel="noopener" aria-label="" title="Share on telegram">
+<a class="resp-sharing-button__link" href="https://telegram.me/share/url?text=Magic%20201%3a%20Card%20Advantage&amp;url=http%3a%2f%2flocalhost%3a1313%2fposts%2fmagic-201-cards%2f" target="_blank" rel="noopener" aria-label="" title="Share on telegram">
   <div class="resp-sharing-button resp-sharing-button--telegram resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
     </div>

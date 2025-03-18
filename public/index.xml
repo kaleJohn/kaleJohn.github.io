@@ -9,32 +9,32 @@
     <lastBuildDate>Sat, 01 Mar 2025 15:50:10 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Magic 201 Cards</title>
+      <title>Magic 201: Card Advantage</title>
       <link>http://localhost:1313/posts/magic-201-cards/</link>
       <pubDate>Sat, 01 Mar 2025 15:50:10 -0400</pubDate>
       <guid>http://localhost:1313/posts/magic-201-cards/</guid>
-      <description>Magic 201: A series of introductory articles on Magic strategy, geared towards limited play. This is part one of a series of articles on some different forms of advantage in Magic, aimed at teaching newer players different frameworks for evaluating board states and card interactions. I hope that this is useful for players of all levels.&#xA;Figuring out who is winning or losing in a game of Magic is surprisingly tricky.</description>
+      <description>&lt;h1 id=&#34;magic-201-card-advantage&#34;&gt;Magic 201: Card Advantage&lt;/h1&gt;&#xA;&lt;p&gt;This is part one of a series of articles on some different forms of advantage in Magic, aimed at teaching newer players different frameworks for evaluating board states and card interactions. I hope that this is useful for players of all levels.&lt;/p&gt;&#xA;&lt;p&gt;Figuring out who is winning or losing in a game of Magic is surprisingly tricky. In games like tennis or football, for example, just glancing at the score will give a good enough impression of who is advantaged. Magic has more in common with a game like chess, where determining who is winning from just a glance at the board can be very challenging for a new player. Unlike chess, algorithms for determining advantage have not been developed. Instead, players develop several heuristics for what interactions and board states will most likely lead to them winning. In this series of articles, I’ll go over the most fundamental of these heuristics.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Viticulture First Impressions</title>
       <link>http://localhost:1313/posts/viticulture/</link>
       <pubDate>Wed, 18 Dec 2024 10:41:55 -0400</pubDate>
       <guid>http://localhost:1313/posts/viticulture/</guid>
-      <description>What is Viticulture Viticulture is a board game first published in 2013 by Stonemaier Games. The Essential Edition was released in 2015, but I played with the original. In it, you play as a wine grower, competing with other players to produce and sell the best wine in town. I played Viticulture for the first time very recently, introduced to it by some relatives who are pretty into board games. It was interesting enough that I thought I’d talk about the aspects of the design of the game that stood out to me.</description>
+      <description>&lt;h2 id=&#34;what-is-viticulture&#34;&gt;What is Viticulture&lt;/h2&gt;&#xA;&lt;p&gt;Viticulture is a board game first published in 2013 by Stonemaier Games. The Essential Edition was released in 2015, but I played with the original. In it, you play as a wine grower, competing with other players to produce and sell the best wine in town. I played Viticulture for the first time very recently, introduced to it by some relatives who are pretty into board games. It was interesting enough that I thought I’d talk about the aspects of the design of the game that stood out to me. I am not experienced with these types of games, so I&amp;rsquo;ll probably be spending some time talking about mechanics and ideas that are staples of the genre, but I hope this is still interesting.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Blog Creation</title>
       <link>http://localhost:1313/posts/blog-creation/</link>
       <pubDate>Sun, 18 Aug 2024 10:41:55 -0400</pubDate>
       <guid>http://localhost:1313/posts/blog-creation/</guid>
-      <description>Starting a Blog I’ve been looking to start a blog for a few months, but I’ve spent most of that time puttering about without actually doing anything. I&amp;rsquo;ve spent altogether too many hours looking at Drupal vs Wordpress, looking into hosting options, reading documentation and articles. What finally pushed me over the edge was an article I read on a blog written using it. It looked nice, even on mobile, and the way the author talked about it made it sound reasonably painless to set up.</description>
+      <description>&lt;h1 id=&#34;starting-a-blog&#34;&gt;Starting a Blog&lt;/h1&gt;&#xA;&lt;p&gt;I’ve been looking to start a blog for a few months, but I’ve spent most of that time puttering about without actually doing anything. I&amp;rsquo;ve spent altogether too  many hours looking at Drupal vs Wordpress, looking into hosting options, reading documentation and articles. What finally pushed me over the edge was an article I read on a blog written using it. It looked nice, even on mobile, and the way the author talked about it made it sound reasonably painless to set up. As a static site generator, it would work with free CDN options like Github Pages. It being open source, and written in Go, a language I’m interesting in learning, also both contributed to my choice. It also had an easy seeming quickstart guide. I was thinking I could be done within a day.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hello World</title>
       <link>http://localhost:1313/posts/hello-world/</link>
       <pubDate>Sat, 17 Aug 2024 10:02:50 -0400</pubDate>
       <guid>http://localhost:1313/posts/hello-world/</guid>
-      <description>Introduction Hello, world. And hello you.</description>
+      <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;&#xA;&lt;p&gt;Hello, world. &lt;em&gt;And hello &lt;strong&gt;you&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

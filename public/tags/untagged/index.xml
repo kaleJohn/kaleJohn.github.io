@@ -13,14 +13,14 @@
       <link>http://localhost:1313/posts/blog-creation/</link>
       <pubDate>Sun, 18 Aug 2024 10:41:55 -0400</pubDate>
       <guid>http://localhost:1313/posts/blog-creation/</guid>
-      <description>Starting a Blog I’ve been looking to start a blog for a few months, but I’ve spent most of that time puttering about without actually doing anything. I&amp;rsquo;ve spent altogether too many hours looking at Drupal vs Wordpress, looking into hosting options, reading documentation and articles. What finally pushed me over the edge was an article I read on a blog written using it. It looked nice, even on mobile, and the way the author talked about it made it sound reasonably painless to set up.</description>
+      <description>&lt;h1 id=&#34;starting-a-blog&#34;&gt;Starting a Blog&lt;/h1&gt;&#xA;&lt;p&gt;I’ve been looking to start a blog for a few months, but I’ve spent most of that time puttering about without actually doing anything. I&amp;rsquo;ve spent altogether too  many hours looking at Drupal vs Wordpress, looking into hosting options, reading documentation and articles. What finally pushed me over the edge was an article I read on a blog written using it. It looked nice, even on mobile, and the way the author talked about it made it sound reasonably painless to set up. As a static site generator, it would work with free CDN options like Github Pages. It being open source, and written in Go, a language I’m interesting in learning, also both contributed to my choice. It also had an easy seeming quickstart guide. I was thinking I could be done within a day.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hello World</title>
       <link>http://localhost:1313/posts/hello-world/</link>
       <pubDate>Sat, 17 Aug 2024 10:02:50 -0400</pubDate>
       <guid>http://localhost:1313/posts/hello-world/</guid>
-      <description>Introduction Hello, world. And hello you.</description>
+      <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;&#xA;&lt;p&gt;Hello, world. &lt;em&gt;And hello &lt;strong&gt;you&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
