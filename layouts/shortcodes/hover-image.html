@@ -1,0 +1,8 @@
+{{ $text := .Get "text" }}
+{{ $src := .Get "src" }}
+{{ $alt := .Get "alt" | default "Image" }}
+
+<span class="hover-image-container">
+  {{ $text }}
+  <img class="hover-image" src="{{ $src }}" alt="{{ $alt }}">
+</span>
